@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/counter/main",
+    "pages/users/main",
+    "pages/detiles/hour/main",
+    "pages/detiles/baomu/main",
+    "pages/detiles/chanfu/main",
+    "pages/detiles/kaihuang/main",
+    "pages/detiles/yuesao/main",
+    "pages/detiles/yuerSao/main",
+    "pages/cfDetiles/kr/main",
+    "pages/cfDetiles/cr/main",
+    "pages/cfDetiles/myh/main",
+    "pages/cfDetiles/chxf/main",
+    "pages/cfDetiles/yezs/main",
+    "pages/cfDetiles/myz/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "fontSizeTextStyle": "18px",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home/home@3x.png",
+      "selectedIconPath": "static/tabs/home/home1@3x.png"
+    }, {
+      "text": "订单",
+      "pagePath": "pages/logs/main",
+      "iconPath": "static/tabs/home/dingdan@3x.png",
+      "selectedIconPath": "static/tabs/home/dingdan1@3x.png"
+    }, {
+      "text": "个人",
+      "pagePath": "pages/users/main",
+      "iconPath": "static/tabs/home/gr@3x.png",
+      "selectedIconPath": "static/tabs/home/gr1@3x.png"
+    }],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home/home@3x.png",
+      "activeIcon": "static/tabs/home/home1@3x.png"
+    }, {
+      "name": "订单",
+      "pagePath": "pages/logs/main",
+      "icon": "static/tabs/home/dingdan@3x.png",
+      "activeIcon": "static/tabs/home/dingdan1@3x.png"
+    }, {
+      "name": "个人",
+      "pagePath": "pages/users/main",
+      "icon": "static/tabs/home/gr@3x.png",
+      "activeIcon": "static/tabs/home/gr@3x.png"
+    }],
+    "position": "bottom"
+  }
+}
